@@ -126,11 +126,12 @@ section * {
 }
 
 .active {
-    background: #e4e9f5;
-    border-top-left-radius: var(--selectedRadius);
-    border-bottom-left-radius: var(--selectedRadius);
+    /* background: #e4e9f5; */
+    /* border-top-left-radius: var(--selectedRadius); */
+    /* border-bottom-left-radius: var(--selectedRadius); */
+    /* color: #ffad32c1; */
 }
-
+/* 
 .active::before {
     content: "";
     position: absolute;
@@ -152,8 +153,9 @@ section * {
     height: 30px;
     border-top-right-radius: var(--selectedRadius);
     box-shadow: 5px -5px 0 5px #e4e9f5;
-    background: transparent;
+    background: transparent; 
 }
+    */
 
 #logo {
     margin: 40px 0 20px 0;
@@ -185,7 +187,7 @@ section * {
     justify-content: center;
     align-items: center;
     padding-left: 2.5px;
-    height: 70px;
+    /* height: 70px; */
     color: rgb(255, 255, 255);
     transition: 0.5s;
 }
@@ -209,6 +211,12 @@ section * {
     box-sizing: border-box;
 }
 
+.active a .icon,
+.active a .text {
+    
+    color: #ffa117;
+}
+
 .icon i {
     font-size: 30px;
     z-index: 999;
@@ -222,7 +230,8 @@ section * {
     justify-content: center;
     align-items: flex-start;
     font-size: 20px;
-    color: #ffad32c1;
+    color: #e4e9f5;
+    /* color: #ffad32c1; */
     padding-left: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -233,6 +242,7 @@ section * {
     font-size: 14px;
     font-weight: bold;
     line-height: 1.5;
+    margin-left: 10px;
 }
 
 .logo-text span {
@@ -270,8 +280,8 @@ section * {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
     color: #fff;
@@ -279,6 +289,7 @@ section * {
     transition: all 0.3s;
     text-decoration: none;
     flex-shrink: 0;
+    margin-left: 2px;
 }
 
 .links-wrapper a:hover,

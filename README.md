@@ -20,6 +20,10 @@
 
 ####  Update Details
 
+###### *March  30, 2026*
+
+* *Update the blog's main page css files,more beautiful, better experience;*
+
 ###### *March  29, 2026*
 
 * *The overall frame and appearance effect of the blog have been closed;*
