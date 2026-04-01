@@ -6,6 +6,90 @@
   "description": "Used for GooHv's-Blog.",
   "glyphs": [
     {
+      "icon_id": "30513810",
+      "name": "开源资料",
+      "font_class": "opensource",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "20584671",
+      "name": "状态",
+      "font_class": "status",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "18169467",
+      "name": "思考",
+      "font_class": "think",
+      "unicode": "e910",
+      "unicode_decimal": 59664
+    },
+    {
+      "icon_id": "24272049",
+      "name": "控制系统",
+      "font_class": "control-system",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "997405",
+      "name": "订单管理",
+      "font_class": "order-management",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "3868281",
+      "name": "仪表盘-数据看板",
+      "font_class": "dashboard",
+      "unicode": "eb66",
+      "unicode_decimal": 60262
+    },
+    {
+      "icon_id": "1061079",
+      "name": "Blog",
+      "font_class": "blog",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "8040179",
+      "name": "VisionMaster",
+      "font_class": "VM",
+      "unicode": "e717",
+      "unicode_decimal": 59159
+    },
+    {
+      "icon_id": "24347456",
+      "name": "opencv",
+      "font_class": "opencv",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "40955866",
+      "name": "PLC",
+      "font_class": "PLC",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "45252664",
+      "name": "keyshot",
+      "font_class": "keyshot",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "12600879",
+      "name": "qt",
+      "font_class": "qt",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
       "icon_id": "5618155",
       "name": "CSS",
       "font_class": "CSS",
@@ -209,32 +293,11 @@
       "unicode_decimal": 59373
     },
     {
-      "icon_id": "10048673",
-      "name": "办公工具",
-      "font_class": "office-tools",
-      "unicode": "e603",
-      "unicode_decimal": 58883
-    },
-    {
       "icon_id": "12579283",
       "name": "打开文件夹",
       "font_class": "folder-open",
       "unicode": "e726",
       "unicode_decimal": 59174
-    },
-    {
-      "icon_id": "35335728",
-      "name": "游戏",
-      "font_class": "gamepad",
-      "unicode": "e8a7",
-      "unicode_decimal": 59559
-    },
-    {
-      "icon_id": "8268337",
-      "name": "购物车",
-      "font_class": "shopping-cart",
-      "unicode": "e881",
-      "unicode_decimal": 59521
     },
     {
       "icon_id": "27363885",
@@ -263,13 +326,6 @@
       "font_class": "external-link-alt",
       "unicode": "eb27",
       "unicode_decimal": 60199
-    },
-    {
-      "icon_id": "27365234",
-      "name": "python",
-      "font_class": "python",
-      "unicode": "ec18",
-      "unicode_decimal": 60440
     },
     {
       "icon_id": "4936665",

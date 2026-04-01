@@ -10,7 +10,6 @@ const PAGE_PATH_MAP = {
     "myStudies": "./pages/myStudies.html",
     "myExperience": "./pages/myExperience.html",
     "myProject": "./pages/myProject.html",
-    "myBabble": "./pages/myBabble.html",
     "donate": "./pages/donate.html"
 };
 

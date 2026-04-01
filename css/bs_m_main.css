@@ -26,14 +26,68 @@ body {
     
     /* 【核心魔法 3】平滑滚动行为 */
     scroll-behavior: smooth;
-    
-    /* 隐藏滚动条 (美观) */
-    scrollbar-width: none; 
-    -ms-overflow-style: none;
 }
 
 body::-webkit-scrollbar { 
     display: none; 
+}
+
+/* 滚动提示横幅容器 */
+.banner-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* 滚动提示横幅样式 */
+.sroll-banner {
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    width: 430px;
+    animation: Scroll 15s linear infinite;
+    cursor: pointer;
+    z-index: 1;
+    pointer-events: auto;
+
+}
+.sroll-banner:hover {
+    animation-play-state: paused;
+}
+.sroll-banner .scroll-content {
+    font-size: 14px;
+    color: #666;
+    margin-right: 20px;
+}
+.sroll-banner .close-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #666;
+    z-index: 10;
+}
+.sroll-banner .close-btn:hover {
+    color: #333;
+}
+@keyframes Scroll {
+    0% { transform: translateX(calc(100vw)); }
+    100% { transform: translateX(-450px); }
 }
 
 /* --- Section 核心修正 (支持长内容) --- */
@@ -64,7 +118,7 @@ section {
     
     /* 确保长内容不会被截断 */
     overflow: visible; 
-    z-index: 1; /* 确保在背景之上 */
+    /*z-index: 1000;  确保在背景之上 */
 }
 
 /* 

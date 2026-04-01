@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 5144908 */
-  src: url('iconfont.woff2?t=1774787598130') format('woff2'),
-       url('iconfont.woff?t=1774787598130') format('woff'),
-       url('iconfont.ttf?t=1774787598130') format('truetype');
+  src: url('iconfont.woff2?t=1775018260199') format('woff2'),
+       url('iconfont.woff?t=1775018260199') format('woff'),
+       url('iconfont.ttf?t=1775018260199') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,54 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-opensource:before {
+  content: "\e620";
+}
+
+.icon-status:before {
+  content: "\e606";
+}
+
+.icon-think:before {
+  content: "\e910";
+}
+
+.icon-control-system:before {
+  content: "\e687";
+}
+
+.icon-order-management:before {
+  content: "\e61e";
+}
+
+.icon-dashboard:before {
+  content: "\eb66";
+}
+
+.icon-blog:before {
+  content: "\e627";
+}
+
+.icon-VM:before {
+  content: "\e717";
+}
+
+.icon-opencv:before {
+  content: "\e64d";
+}
+
+.icon-PLC:before {
+  content: "\e619";
+}
+
+.icon-keyshot:before {
+  content: "\e661";
+}
+
+.icon-qt:before {
+  content: "\e653";
 }
 
 .icon-CSS:before {
@@ -129,20 +177,8 @@
   content: "\e7ed";
 }
 
-.icon-office-tools:before {
-  content: "\e603";
-}
-
 .icon-folder-open:before {
   content: "\e726";
-}
-
-.icon-gamepad:before {
-  content: "\e8a7";
-}
-
-.icon-shopping-cart:before {
-  content: "\e881";
 }
 
 .icon-server:before {
@@ -159,10 +195,6 @@
 
 .icon-external-link-alt:before {
   content: "\eb27";
-}
-
-.icon-python:before {
-  content: "\ec18";
 }
 
 .icon-cloud:before {
